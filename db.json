@@ -3,30 +3,47 @@
         {
             "name":"Room One",
             "status":0,
-            "adr":"Building A",
-            "meeting":"James Smith's Meeting",
-            "start_time":"10am",
-            "end_time":"11am",
+            "adr":"Building C",
+            "current_meeting": {
+                "name": "Standup",
+                "start_time":"10am",
+                "end_time":"11am"
+            },
+            "next_meeting": {
+                "name": "Nisha Samuels's Meeting",
+                "start_time":"11am",
+                "end_time":"1pm"
+            },
             "type":"call",
             "pax":2
         },
         {
             "name":"Room Two",
-            "status":1,
+            "status":0,
             "adr":"Building A",
-            "meeting":"Bob Smith's Meeting",
-            "start_time":"10am",
-            "end_time":"11am",
-            "type":"room",
-            "pax":5
+            "current_meeting": {
+                "name": "Sales Call",
+                "start_time":"9am",
+                "end_time":"11am"
+            },
+            "next_meeting": {},
+            "type":"call",
+            "pax":14
         },
         {
             "name":"Room Three",
             "status":1,
             "adr":"Building B",
-            "meeting":"Greg Smith's Meeting",
-            "start_time":"10am",
-            "end_time":"11am",
+            "current_meeting": {
+                "name": "AV Meeting",
+                "start_time":"10:30am",
+                "end_time":"11am"
+            },
+            "next_meeting": {
+                "name": "Sunil Solomon's Meeting",
+                "start_time":"11:15am",
+                "end_time":"12pm"
+            },
             "type":"room",
             "pax":10
         },
@@ -34,9 +51,29 @@
             "name":"Room Four",
             "status":0,
             "adr":"Building C",
-            "meeting":"James Smith's Meeting",
-            "start_time":"10am",
-            "end_time":"11am",
+            "current_meeting": {},
+            "next_meeting": {
+                "name": "Jessie Ferry's Sales Call",
+                "start_time":"10:30am",
+                "end_time":"11am"
+            },
+            "type":"call",
+            "pax":2
+        },
+        {
+            "name":"Room Five",
+            "status":0,
+            "adr":"Building C",
+            "current_meeting": {
+                "name": "Pitch Meeting",
+                "start_time":"10am",
+                "end_time":"10:30am"
+            },
+            "next_meeting": {
+                "name": "Fiona Benson's Sales Call",
+                "start_time":"10:30am",
+                "end_time":"11am"
+            },
             "type":"call",
             "pax":2
         }
