@@ -1,0 +1,44 @@
+{
+    "rooms":[
+        {
+            "name":"Room One",
+            "status":0,
+            "adr":"Building A",
+            "meeting":"James Smith's Meeting",
+            "start_time":"10am",
+            "end_time":"11am",
+            "type":"call",
+            "pax":2
+        },
+        {
+            "name":"Room Two",
+            "status":1,
+            "adr":"Building A",
+            "meeting":"Bob Smith's Meeting",
+            "start_time":"10am",
+            "end_time":"11am",
+            "type":"room",
+            "pax":5
+        },
+        {
+            "name":"Room Three",
+            "status":1,
+            "adr":"Building B",
+            "meeting":"Greg Smith's Meeting",
+            "start_time":"10am",
+            "end_time":"11am",
+            "type":"room",
+            "pax":10
+        },
+        {
+            "name":"Room Four",
+            "status":0,
+            "adr":"Building C",
+            "meeting":"James Smith's Meeting",
+            "start_time":"10am",
+            "end_time":"11am",
+            "type":"call",
+            "pax":2
+        }
+    ]
+}
