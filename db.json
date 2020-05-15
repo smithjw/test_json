@@ -26,7 +26,11 @@
                 "start_time":"9am",
                 "end_time":"11am"
             },
-            "next_meeting": {},
+            "next_meeting": {
+                "name": "Marketing Call",
+                "start_time":"11am",
+                "end_time":"11:30am"
+            },
             "type":"call",
             "pax":14
         },
